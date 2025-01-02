@@ -22,11 +22,8 @@ library(googleAuthR)
 library(shinyjs)
 
 # Google AuthR Configuration
-#options(googleAuthR.client_id = "16323160695-vb18hm163tm270d9blb8tm770i5sd713.apps.googleusercontent.com")
-#options(googleAuthR.client_secret = "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")
-#options(googleAuthR.scopes.selected = c("openid", "email", "profile"))
-google_client_id <- "16323160695-vb18hm163tm270d9blb8tm770i5sd713.apps.googleusercontent.com"
-google_client_secret <- "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"
+google_client_id <- "clientID"
+google_client_secret <- "SerectKEY"
 google_redirect_uri <- "http://127.0.0.1:6030/"
 # Custom color palettes
 custom_colors <- list(
